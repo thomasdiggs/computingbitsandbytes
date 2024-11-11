@@ -88,8 +88,10 @@ main article p {
     margin-top: 10px;
 }
 
-main article hr {
-    border: 1px solid #CCCCCC;
+main article .post-content {
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 /* Footer styling */
