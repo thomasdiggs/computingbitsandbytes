@@ -88,6 +88,10 @@ main article p {
     margin-top: 10px;
 }
 
+main article hr {
+    border: 1px solid #CCCCCC;
+}
+
 /* Footer styling */
 footer {
     text-align: center;
