@@ -1,0 +1,254 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAF3E0; /* Light beige */
+    color: #333333; /* Dark gray text */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #006699; /* Vintage blue */
+    background-color: #FFFFFF; /* White background */
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366; /* Darker blue */
+    color: #FFFFFF;
+}
+
+header h1 {
+    font-size: 2em;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+nav {
+    background-color: #CCCCCC; /* Light gray */
+    padding: 5px;
+    margin: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #003366; /* Dark blue */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FF6600; /* Orange highlight on hover */
+}
+
+nav ul li a.active {
+  color: #FF6600; /* Orange for the active page link */
+  text-decoration: underline; /* Optional: underline for emphasis */
+}
+
+main {
+    padding: 10px;
+}
+
+.page h1 {
+  color: #003366;
+  font-size: 1.75em;
+  margin-bottom: 10px;
+}
+
+.page h2 {
+  color: #003366;
+  /* color: #333333; */
+  margin: 10px 0px;
+  font-size: 1.5em;
+}
+.page h3 {
+  font-size: 1.25em;
+  margin: 10px 0px;
+  color: #555555;
+}
+.page p {
+  margin-top: 10px;
+  font-size: 1.125em;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    background-color: #CCCCCC; /* Light gray */
+    color: #333333;
+    margin-top: 20px;
+}
+
+
+
+
+/* ChatGPT styles */
+.archive ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.archive li {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.archive li a {
+  text-decoration: none;
+  color: #007acc;
+  transition: color 0.2s ease;
+}
+
+.archive li a:hover {
+  color: #005f99;
+}
+  
+
+.latest-post .post-meta {
+  font-size: 0.9em;
+  color: #666666;
+  margin: 10px 0px;
+}
+.latest-post h1 {
+  color: #003366;
+  font-size: 1.75em;
+  margin-bottom: 10px;
+}
+.latest-post h2 {
+  color: #003366;
+  /* color: #333333; */
+  margin: 10px 0px;
+  font-size: 1.5em;
+}
+.latest-post h3 {
+  font-size: 1.25em;
+  margin: 10px 0px;
+  color: #555555;
+}
+.latest-post .excerpt {
+  margin-top: 10px;
+  font-size: 1.125em;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 30px;
+  font-size: 1.125em;
+  color: white;
+  background-color: #003366;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+.read-more:hover {
+  background-color: #005f99;
+}
+
+/* Post Navigation */
+/* .post-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.post-navigation a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.post-navigation a:hover {
+  text-decoration: underline;
+}
+
+.post-navigation-older {
+  align-self: flex-start;
+}
+
+.post-navigation-newer {
+  align-self: flex-end;
+} */
+ /* Post Navigation */
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.post-navigation a {
+  color: #007acc;
+  font-size: 1.25em;
+  text-decoration: none;
+  font-weight: bold;
+}
+.post-navigation a:hover {
+  text-decoration: underline;
+}
+/* Force space between navigation links */
+.post-navigation-older {
+  align-self: flex-start;
+}
+.post-navigation-newer {
+  align-self: flex-end;
+  margin-left: auto; /* Pushes it to the right when the older link is missing */
+}
+
+
+/* Post Content */
+.post h1 {
+  color: #003366;
+  font-size: 1.75em;
+  margin-bottom: 10px;
+}
+
+.post h2 {
+  color: #003366;
+  /* color: #333333; */
+  margin: 10px 0px;
+  font-size: 1.5em;
+}
+.post h3 {
+  font-size: 1.25em;
+  margin: 10px 0px;
+  color: #555555;
+}
+.post p {
+  margin-top: 10px;
+  font-size: 1.125em;
+}
+
+.post .post-meta {
+  font-size: 0.9em;
+  color: #666666;
+  margin: 10px 0px;
+}

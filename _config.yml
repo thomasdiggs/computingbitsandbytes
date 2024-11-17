@@ -1,0 +1,11 @@
+title: Computing Bits and Bytes
+description: Discovering the Joys of Computer Science, One Bit and Byte at a Time
+url: https://yourusername.github.io
+baseurl: "" # Leave empty for a root domain
+author:
+  name: Your Name
+  email: contact@computingbitsandbytes.net
+markdown: kramdown
+collections:
+  posts:
+    output: true
