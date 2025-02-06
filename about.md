@@ -6,7 +6,7 @@ permalink: /about/
 
 # About
 
-This is a simple little website and my nook of the web. Here I intend to post articles and lessons about many things relating to computer science. Currently, I am pursuing a masters in computer science focused on low-level programming and computing systems. This is me sharing my adventure!
+This is a simple little website and my nook of the web. Here I intend to post articles and lessons about many things relating to computer science. Currently, I am pursuing a masters degree in computer science focused on low-level programming and computing systems.
 
 ## Favorite Links
 ### C
